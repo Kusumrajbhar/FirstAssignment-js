@@ -1,0 +1,451 @@
+@font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/satisfy/v11/rP2Hp2yn6lkG50LoCZOIHQ.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    display: flex;
+    margin-inline: 15px;
+    text-align: center;
+}
+.nav1{
+
+    justify-content: center;
+    top:0px;
+    cursor: pointer;
+}
+ul li a:hover{
+    display: flex;
+    padding: 5px 2px;
+    color:rgb(92, 88, 88);
+    text-decoration: none;
+}
+ul li a{
+    display: flex;
+    padding: 5px 2px;
+    color:rgb(92, 88, 88);
+    text-decoration: none;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-self: left;
+    flex-direction: ;
+}
+#item-0{
+    display: flex;
+    align-content: center;
+     justify-content: center;
+
+}
+#item-1{
+    display: flex;
+    margin-top: 20px;
+}
+#item-2{
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    align-items:flex-start;
+    margin-left: -120px;
+}
+#curse{
+    display: flex;
+}
+.hello{
+    background-color:rgb(192, 189, 189);
+}
+h4{
+    background-color: rgb(192, 189, 189);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.mid{
+    display: flex;
+    justify-content: right;
+   align-items: center;
+   padding-right: px;
+
+}
+#item-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float:inline-start;
+    padding-top: 120px;
+    padding-left: 190px;
+}
+
+.girl{
+    float: right;
+    margin-right: 150px;
+    margin-top: -350px;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.steps{
+    margin-top: 40px;
+}
+
+.dummy{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.para1{
+    text-align: center;
+}
+.bluebackg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+ justify-content: center; 
+}
+
+#gets{
+    margin-left: 90px;
+    text-decoration: none;
+}
+.cards{
+    display: inline-block;
+}
+#logobg{
+    background-image: url('who_we_help.jpg');
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+#item-5{
+    margin-left: -90px;
+    flex-wrap: wrap;
+}
+.backg{
+    background-image: url('testimonial-bg.jpg' );
+    background-attachment: fixed;
+   max-width: 100%;
+
+}
+.roundgirl{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+.card-group{
+    padding: 90px ;
+    padding-top: 50px;
+}
+
+.last{
+    display: flex;
+    background-color:rgb(39, 36, 36);
+    margin-top: -8px;
+    
+}
+.white{
+    color: #fff;
+}
+.last1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 30px;
+}
+.last-2{
+    display: flex;
+    flex-direction: row;
+}
+.last-3{
+    display: flex;
+}
+.lastpoint1{
+    background-color: #000;
+    padding-top: 8px;
+}
+#text1{
+    color:darkgray;
+}
+.size{
+    font-size: 15px;
+}
+.button{
+    background-color: yellowgreen;
+    text-decoration: none;
+    color: #fff;;
+    padding:15px 30px 15px 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button1{
+    background-color: #fff;
+    text-decoration: none;
+    color:rgb(189, 219, 15);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 3px;
+    border:solid 1px rgb(189, 219, 15);
+
+}
+.card{
+    flex-wrap: wrap;
+}
+.gray{
+    color: rgb(92, 88, 88);
+    font-size: 13px;
+}
+.final{
+    text-align: center;
+    padding-top:8px;
+}
+.secondlast{
+    font-size: 12px;
+}
+#gray1{
+    padding-left: 400px;
+}
+#gray2{
+    padding-right: 400px;
+}
+.column{
+    display: flex;
+}
+
+.burger{
+    display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+
+.line{
+    background-color: rgb(92, 88, 88);
+    width: 33px;
+    height:4px;
+    margin: 3px 3px;
+}
+#cardmaing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn2{
+    background-color: white;
+    color: yellowgreen;
+    border: solid 1px yellowgreen;
+    padding:15px 30px 15px 30px;
+    text-decoration: none; 
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn2:hover {
+    background-color: yellowgreen;
+    color:white;
+}
+.btn1{
+    background-color:yellowgreen;
+    color: white;
+    border: solid 1px yellowgreen;
+    padding:15px 30px 15px 30px;
+    text-decoration: none; 
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn1:hover {
+    background-color: white;
+    color:yellowgreen;
+}
+
+@media only screen and (max-width: 1200px){
+    .nav-1{
+        flex-direction: column;
+    }
+    #item-0{
+        margin-right: 100px;
+    }
+    #item-1{
+        flex-direction: column;
+    }
+    #item-2{
+        flex-direction: column;
+        margin-left:-45px;
+        text-align: center;
+        justify-content: center;
+    }
+    .second{
+        text-align: center;
+        justify-content: center;
+    }
+    .box-main{
+        flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    #curse{
+        flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+    #item-0{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .first-half{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left px;
+        padding-right: px;
+    }
+    .gm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-container{
+        margin-left: 50px;
+    }
+    #black{
+        align-items: center;
+        margin-left: 60px;
+    }
+    .container-final{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 230px;
+    }
+    #firstnav{
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .firsthalf{
+        margin: 50px;
+        
+    }
+    .vital{
+       margin-left: -70px;
+       margin-right: -70px;
+    }
+    .dummy{
+        margin:40px;
+    }
+    .btn2{
+    background-color: white;
+    color: yellowgreen;
+    border: solid 1px yellowgreen;
+    padding:15px 30px 15px 30px;
+    text-decoration: none; 
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn2:hover {
+    background-color: yellowgreen;
+    color:white;
+}
+.btn1{
+    background-color:yellowgreen;
+    color: white;
+    border: solid 1px yellowgreen;
+    padding:15px 30px 15px 30px;
+    text-decoration: none; 
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn1:hover {
+   visibility: visible;
+   display: block;
+}
+}
+
+@media only screen and (max-width: 1000px){
+    .card-group{
+        flex-direction: column;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .last-2{
+        flex-direction: column;
+    }
+    .last1{
+        flex-direction: column;
+    }
+    .last-3{
+        flex-direction: column;
+    }
+    .cursivelast{
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    #secondlast{
+        margin-left:px;
+    }
+    #black{
+        margin-left: 60px;
+        align-items: center;
+        
+      }
+      #black1{
+        margin-left: 80px;
+        margin-bottom: 10px;
+      }
+      #black2{
+        margin-left: 80px;
+        margin-bottom: 10px;
+      }
+}
+@media (hover:hover) {
+    .btn2:hover {
+        background-color: yellowgreen;
+        color:white;
+    }
+}
